@@ -21,15 +21,9 @@ All chord diagrams are generated using SVG.js, rather than using images.
 
 ### Technologies used:
 
-[jQuery]
-[SVG.js]
-[Chords DB]
-[Semantic UI]
+[jQuery](https://jquery.com/)  
+[SVG.js](http://svgjs.com)  
+[Chords DB](https://github.com/tombatossals/chord-db)  
+[Semantic UI](https://semantic-ui.com)  
 
 [Flash Chords]
-
-    [Flash Chords]: <http://google.com>
-    [jQuery]:       <https://jquery.com/>
-    [SVG.js]:       <http://svgjs.com/>
-    [Chords DB]:    <https://github.com/tombatossals/chords-db>
-    [Semantic UI]:  <https://semantic-ui.com/>
