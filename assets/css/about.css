@@ -12,14 +12,15 @@ h1 {
     background-color: #fbfbfb;
     border: #444444 solid 0px;
     margin: 35px auto;
-    width: 350px;
-    padding: 10px;
+    width: 20%;
+    min-width: 350px;
     text-align: center;
     border-radius: 15px;
     box-shadow: -3px 3px 10px 0px rgba(68,68,68,0.48), 1px -1px 3px 0px rgba(68,68,68,0.28);
         -webkit-box-shadow: -3px 3px 10px 0px rgba(68,68,68,0.48), 1px -1px 3px 0px rgba(68,68,68,0.28);
         -moz-box-shadow: -3px 3px 10px 0px rgba(68,68,68,0.48), 1px -1px 3px 0px rgba(68,68,68,0.28);
 }
+
 
 hr {
     border: 0;
