@@ -26,4 +26,4 @@ All chord diagrams are generated using SVG.js, rather than using images.
 [Chords DB](https://github.com/tombatossals/chord-db)  
 [Semantic UI](https://semantic-ui.com)  
 
-[Flash Chords](https://github.com/flatcap-monty/flash_chords)
+[Flash Chords](https://flatcap-monty.github.io/flash_chords)
