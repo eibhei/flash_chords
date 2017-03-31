@@ -1,0 +1,29 @@
+html {
+    font-family: 'Raleway';
+    font-weight: 400;
+}
+
+h1 {
+    color: #444444;
+    font-family: 'Raleway';
+}
+
+.card {
+    background-color: #fbfbfb;
+    border: #444444 solid 0px;
+    margin: 35px auto;
+    width: 350px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: -3px 3px 10px 0px rgba(68,68,68,0.48), 1px -1px 3px 0px rgba(68,68,68,0.28);
+        -webkit-box-shadow: -3px 3px 10px 0px rgba(68,68,68,0.48), 1px -1px 3px 0px rgba(68,68,68,0.28);
+        -moz-box-shadow: -3px 3px 10px 0px rgba(68,68,68,0.48), 1px -1px 3px 0px rgba(68,68,68,0.28);
+}
+
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}

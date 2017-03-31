@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flash Chords</title>
+
+        <link rel="stylesheet" type="text/css" href="assets/css/index.css">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.css"/>
+
+        <script type="text/javascript" src="assets/js/lib/jquery-3.1.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.js"></script>
+        <script type="text/javascript" src="assets/js/lib/svg.js"></script>
+        <script type="text/javascript" src="assets/js/lib/chords.js"></script>
+
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <div class="ui small menu">
+            <div class="header item">
+                <a href="#"><h1>Flash Chords</h1></a>
+            </div>
+
+            <!-- <div class="ui pointing dropdown link item">
+               <span class="text">Chords</span>
+               <i class="dropdown icon"></i>
+               <div class="menu">
+                 <div class="item">Chords</div>
+                 <div class="item">Scales</div>
+                 <div class="item">Arpeggios</div>
+               </div>
+             </div> -->
+
+            <div class="right menu">
+                <a class="item" href="about.html"><i class="info icon"></i> About</a>
+                <a class="item" href="#"><i class="github icon"></i> Github</a>
+                <!-- <a class="item" href="#">Donate</a> -->
+            </div>
+        </div>
+
+        <div class="card">
+            <h2 class="name"></h2>
+            <div id="container">
+                <div id="diagram"></div>
+            </div>
+            <div id="positions">
+                <button class="variants selected" id="1">1</button>
+                <button class="variants" id="2">2</button>
+                <button class="variants" id="3">3</button>
+                <button class="variants" id="4">4</button>
+                <button class="variants" id="5">5</button>
+            </div>
+            <button class="main">Reveal</button>
+        </div>
+
+        <script type="text/javascript" src="assets/js/index.js"></script>
+    </body>
+</html>
