@@ -8,9 +8,9 @@ html {
     font-weight: 400;
     background-color: #fbfbfb;
     border: #444444 solid 0px;
-    /*margin: 35px auto;*/
-    /*width: 60%;*/
-    /*min-width: 350px;*/
+    margin: 35px auto;
+    width: 25%;
+    min-width: 350px;
     text-align: center;
     border-radius: 15px;
     box-shadow: -3px 3px 10px 0px rgba(68,68,68,0.48), 1px -1px 3px 0px rgba(68,68,68,0.28);
