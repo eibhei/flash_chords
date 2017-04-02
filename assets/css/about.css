@@ -4,11 +4,9 @@ html {
 }
 
 .card {
-    font-family: 'Raleway';
-    font-weight: 400;
     background-color: #fbfbfb;
     border: #444444 solid 0px;
-    margin: 35px auto;
+    margin: 0px auto;
     width: 25%;
     min-width: 350px;
     text-align: center;
