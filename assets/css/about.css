@@ -3,12 +3,9 @@ html {
     font-weight: 400;
 }
 
-h1 {
-    color: #444444;
-    font-family: 'Raleway';
-}
-
 .card {
+    font-family: 'Raleway';
+    font-weight: 400;
     background-color: #fbfbfb;
     border: #444444 solid 0px;
     margin: 35px auto;
