@@ -10,6 +10,8 @@ All chord diagrams are generated using SVG.js, rather than using images.
 
 - Centre position buttons
 - General code review and cleanup
+- Tap anywhere on card to reveal
+- Keyboard control
 
 ### Planned features:
 
@@ -18,6 +20,7 @@ All chord diagrams are generated using SVG.js, rather than using images.
 - Show musical notation for chords instead of names
 - Be able to select a pool of chords to learn
 - Other tunings
+- Chord search
 
 ### Technologies used:
 
