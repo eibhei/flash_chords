@@ -58,7 +58,7 @@ var chords = [
             {key:'C',suffix:'7sus',positions:[{frets:'x35363',fingers:'141310',barres:3},{frets:'8a8a88',fingers:'114131',barres:8},{frets:'xxacbd',fingers:'423100'}]},
             {key:'C',suffix:'sus2',positions:[{frets:'x3001x',fingers:'010030'},{frets:'x35533',fingers:'114310',barres:3},{frets:'xxacda',fingers:'143100',barres:10}]},
             {key:'C',suffix:'13',positions:[{frets:'x122xx',fingers:'024310'},{frets:'8x89ax',fingers:'043201'}]},
-            {key:'C',suffix:'9',positions:[{frets:'x32333',fingers:'333120',barres:3}]},
+            {key:'C',suffix:'9',positions:[{frets:'x32333',fingers:'021333',barres:3}]},
             {key:'C',suffix:'sus4',positions:[{frets:'x3301x',fingers:'010430'},{frets:'x3556x',fingers:'043310'}]},
             {key:'C',suffix:'7aug',positions:[{frets:'x1211x',fingers:'011210',barres:1},{frets:'8x899x',fingers:'043201'}]},
             {key:'C',suffix:'7b9',positions:[{frets:'x3232x',fingers:'013120',barres:2}]},
@@ -161,7 +161,7 @@ var chords = [
             {key:'F#',suffix:'maj7',positions:[{frets:'xx4321',fingers:'123400'},{frets:'xx4666',fingers:'333100',barres:6},{frets:'x98666',fingers:'111340',barres:6},{frets:'x9bab9',fingers:'142310',barres:9},{frets:'xxbbbd',fingers:'311100',barres:11}]},
             // G
             {key:'G',suffix:'7#9',positions:[{frets:'xx5466',fingers:'431200'}]},
-            {key:'G',suffix:'7',positions:[{frets:'320001',fingers:'320001'},{frets:'353463',fingers:'142131',barres:3},{frets:'xx5767',fingers:'423100'},{frets:'xa9a8x',fingers:'014230'},{frets:'xacaca',fingers:'141310',barres:10}]},
+            {key:'G',suffix:'7',positions:[{frets:'320001',fingers:'100023'},{frets:'353463',fingers:'142131',barres:3},{frets:'xx5767',fingers:'423100'},{frets:'xa9a8x',fingers:'014230'},{frets:'xacaca',fingers:'141310',barres:10}]},
             {key:'G',suffix:'6',positions:[{frets:'320000',fingers:'000012'},{frets:'xx5453',fingers:'142300'},{frets:'xx5757',fingers:'413100',barres:5},{frets:'xa998x',fingers:'013240'},{frets:'xac9cx',fingers:'041320'}]},
             {key:'G',suffix:' Major',positions:[{frets:'320003',fingers:'300012'},{frets:'355433',fingers:'112431',barres:3},{frets:'xx5787',fingers:'342100'},{frets:'xx9787',fingers:'121300',barres:7},{frets:'xACCCx',fingers:'033310',barres:12}]},
             {key:'G',suffix:'min7',positions:[{frets:'353333',fingers:'111131',barres:3},{frets:'xa8a8x',fingers:'014130',barres:8},{frets:'xacaba',fingers:'121310',barres:10}]},
