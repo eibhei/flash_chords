@@ -29,7 +29,7 @@ var chords = [
             {key:'Bb',suffix:'9',positions:[{frets:'x20111',fingers:'333020',barres:1}]},
             {key:'Bb',suffix:'sus4',positions:[{frets:'x1334x',fingers:'043210'},{frets:'688866',fingers:'114321',barres:6},{frets:'xx8abb',fingers:'443100',barres:11}]},
             {key:'Bb',suffix:'7aug',positions:[{frets:'6x677x',fingers:'043201'},{frets:'xbcbbx',fingers:'011210',barres:11}]},
-            {key:'Bb',suffix:'7b9',positions:[{frets:'x10101',fingers:'302010',barres:1}]},
+            {key:'Bb',suffix:'7b9',positions:[{frets:'x10101',fingers:'302010'}]},
             {key:'Bb',suffix:'maj7',positions:[{frets:'x13231',fingers:'142310',barres:1},{frets:'xx3335',fingers:'311100',barres:3},{frets:'xx8765',fingers:'123400'},{frets:'xx8aaa',fingers:'333100',barres:10},{frets:'xdcaaa',fingers:'111340',barres:10}]},
             // B
             {key:'B',suffix:'7#9',positions:[{frets:'x2123x',fingers:'043120'}]},
