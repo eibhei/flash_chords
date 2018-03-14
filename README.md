@@ -12,6 +12,7 @@ All chord diagrams are generated using SVG.js, rather than using images.
 - General code review and cleanup
 - Tap anywhere on card to reveal
 - Keyboard control
+- Fix known issue with barring
 
 ### Planned features:
 
