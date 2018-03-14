@@ -52,7 +52,7 @@ var chords = [
             {key:'C',suffix:'7',positions:[{frets:'x32310',fingers:'014230'},{frets:'x35353',fingers:'141310',barres:3},{frets:'xx5556',fingers:'211100',barres:5},{frets:'8a8988',fingers:'112131',barres:8},{frets:'xxacbc',fingers:'423100'}]},
             {key:'C',suffix:'6',positions:[{frets:'x3221x',fingers:'013240'},{frets:'x35555',fingers:'333310',barres:5},{frets:'xx7558',fingers:'411300',barres:5},{frets:'xxa9a8',fingers:'142300'},{frets:'xxacac',fingers:'413100',barres:10}]},
             {key:'C',suffix:' Major',positions:[{frets:'x32010',fingers:'010230'},{frets:'x3555x',fingers:'033310',barres:5},{frets:'x7555x',fingers:'011130',barres:5},{frets:'8aa988',fingers:'112431',barres:8},{frets:'xxacdc',fingers:'342100'}]},
-            {key:'C',suffix:'min7',positions:[{frets:'x35343',fingers:'121310',barres:3},{frets:'8x888x',fingers:'033302',barres:8},{frets:'xxacbb',fingers:'223100'},{frets:'8x888x',fingers:'033302',barres:8}]},
+            {key:'C',suffix:'min7',positions:[{frets:'x35343',fingers:'121310',barres:3},{frets:'8x888x',fingers:'033302',barres:8},{frets:'xxacbb',fingers:'223100'}]},
             {key:'C',suffix:'min6',positions:[{frets:'8x788x',fingers:'043102'},{frets:'xxacab',fingers:'213100',barres:10}]},
             {key:'C',suffix:' minor',positions:[{frets:'x3101x',fingers:'010240'},{frets:'x35543',fingers:'124310',barres:3},{frets:'x6558x',fingers:'041120',barres:5},{frets:'8aa888',fingers:'111431',barres:8},{frets:'xxacdb',fingers:'243100'}]},
             {key:'C',suffix:'7sus',positions:[{frets:'x35363',fingers:'141310',barres:3},{frets:'8a8a88',fingers:'114131',barres:8},{frets:'xxacbd',fingers:'423100'}]},
@@ -142,7 +142,7 @@ var chords = [
             {key:'F',suffix:'sus4',positions:[{frets:'133311',fingers:'114321',barres:1},{frets:'xx3566',fingers:'443100',barres:6},{frets:'x8aabx',fingers:'043310',barres:10}]},
             {key:'F',suffix:'7aug',positions:[{frets:'1x122x',fingers:'043201'},{frets:'x6766x',fingers:'011210',barres:6}]},
             {key:'F',suffix:'7b9',positions:[{frets:'x8787x',fingers:'013120',barres:7}]},
-            {key:'F',suffix:'maj7',positions:[{frets:'xx3210',fingers:'012300'},{frets:'xx3555',fingers:'333100',barres:5},{frets:'x87555',fingers:'111340',barres:5},{frets:'x8a9a8',fingers:'142310',barres:8},{frets:'xxaaac',fingers:'311100'}]},
+            {key:'F',suffix:'maj7',positions:[{frets:'xx3210',fingers:'012300'},{frets:'xx3555',fingers:'333100',barres:5},{frets:'x87555',fingers:'111340',barres:5},{frets:'x8a9a8',fingers:'142310',barres:8},{frets:'xxaaac',fingers:'311100',barres:10}]},
             // F#
             {key:'F#',suffix:'7#9',positions:[{frets:'x989ax',fingers:'043120'}]},
             {key:'F#',suffix:'7',positions:[{frets:'xx4320',fingers:'012300'},{frets:'xx4656',fingers:'423100'},{frets:'x9897x',fingers:'014230'},{frets:'x9b9b9',fingers:'141310',barres:9},{frets:'xxbbbc',fingers:'211100',barres:11}]},
