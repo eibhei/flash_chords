@@ -1,5 +1,3 @@
-// Fixing atom issue
-
 var chords = [
             // A
             {key:'A',suffix:'7#9',positions:[{frets:'xx7688',fingers:'431200'}]},
@@ -128,7 +126,7 @@ var chords = [
             {key:'E',suffix:'sus4',positions:[{frets:'022200',fingers:'004320'},{frets:'xx2455',fingers:'443100',barres:5},{frets:'x799ax',fingers:'043310',barres:9}]},
             {key:'E',suffix:'7aug',positions:[{frets:'x3433x',fingers:'011210',barres:3},{frets:'axabbx',fingers:'043201'}]},
             {key:'E',suffix:'7b9',positions:[{frets:'x7676x',fingers:'013120',barres:6}]},
-            {key:'E',suffix:'maj7',positions:[{frets:'011444',fingers:'333110',barres:[1,4]},{frets:'x76444',fingers:'111340',barres:4},{frets:'x79897',fingers:'142310',barres:7},{frets:'xx999b',fingers:'311100',barres:9},{frets:'cxddcx',fingers:'024301'}]},
+            {key:'E',suffix:'maj7',positions:[{frets:'022444',fingers:'333110',barres:[1,4]},{frets:'x76444',fingers:'111340',barres:4},{frets:'x79897',fingers:'142310',barres:7},{frets:'xx999b',fingers:'311100',barres:9},{frets:'cxddcx',fingers:'024301'}]},
             // F
             {key:'F',suffix:'7#9',positions:[{frets:'x8789x',fingers:'043230'}]},
             {key:'F',suffix:'7',positions:[{frets:'131211',fingers:'131211',barres:1},{frets:'xx3545',fingers:'423100'},{frets:'x8786x',fingers:'014230'},{frets:'x8a8a8',fingers:'141310',barres:8},{frets:'xxaaab',fingers:'211100',barres:10}]},
