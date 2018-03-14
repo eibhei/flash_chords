@@ -19,8 +19,9 @@ h2.name {
     font-size: 35px
 }
 
-h3 {
+.caption h3 {
   text-transform: lowercase;
+  color: #444444;
 }
 
 .thumbnail {
