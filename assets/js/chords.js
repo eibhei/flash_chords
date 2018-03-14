@@ -1,3 +1,5 @@
+// Fixing atom issue
+
 // Create canvas for SVG
 var draw    = SVG('diagram').size(280, 280);
 var rect    = draw.rect(280, 280).attr({ fill: '#fbfbfb'});

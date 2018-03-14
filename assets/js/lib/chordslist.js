@@ -1,3 +1,5 @@
+// Fixing atom issue
+
 var chords = [
             // A
             {key:'A',suffix:'7#9',positions:[{frets:'xx7688',fingers:'431200'}]},
