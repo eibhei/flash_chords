@@ -45,7 +45,7 @@ function drawNut(){
     var rect = draw.rect(205, 5).radius(3).cx(140).cy(40).fill("#444444");
 }
 function drawDots(x, y){
-    if(y > 15){         // y=15 is the nut
+    if(y > 15){                         // y=15 is the nut
         var circle = draw.circle(30).cx(x).cy(y).fill("#444444");
     }
 }
@@ -76,13 +76,13 @@ function drawPosition(){
     var x = 40;
     var fretsArray = [];
     var fingersArray = [];
-    var posNum = $(".variants.selected").attr("id");      // Position number based on button selected in app
-    var barre = chord.positions[(posNum - 1)].barres;     // Convert posNum to array number
+    var posNum = $(".variants.selected").attr("id");      // position number based on button selected in app
+    var barre = chord.positions[(posNum - 1)].barres;     // convert posNum to array number
 
     // Get highest and lowest frets
     for(var i = 0; i < frets.length; i++){
-        var hexNum = parseInt(frets[i], 16);              // Convert hex to decimal in chordslist:frets
-        var fretNum = Number(hexNum);                     // These 3 lines are repeated elsewhere... functionable?
+        var hexNum = parseInt(frets[i], 16);              // convert hex to decimal in chordslist:frets
+        var fretNum = Number(hexNum);                     // these 3 lines are repeated elsewhere... functionable?
 
         if(fretNum > 0){
             fretsArray.push(fretNum);
@@ -94,7 +94,7 @@ function drawPosition(){
 
     var q = (1 + (1 - lowestFret));                       // q helps determine whether nut or fret number needs drawing
 
-    if(q >= 0 && highestFret - lowestFret !== 3){         // q greater than 0 AND biggest gap isn't 3
+    if(q >= 0 && highestFret - lowestFret !== 3){         // for neck positions close to the nut
         for(var i = 0; i < frets.length; i++){
 
             var hexNum = parseInt(frets[i], 16);
@@ -137,12 +137,12 @@ function drawPosition(){
             }
 
         }
-    } else {
+    } else {                                              // higher neck positions
         for(var i = 0; i < frets.length; i++){
 
             var hexNum = parseInt(frets[i], 16);
             var fretNum = Number(hexNum);
-            var adjNum = fretNum + (1 - lowestFret);
+            var adjNum = fretNum + (1 - lowestFret);      // adjust fretNum for higher neck positions, makes maths easier
 
             var y = 15 + (adjNum * 50)
             drawFingering(i,x,y)
@@ -184,6 +184,7 @@ function drawPosition(){
             }
         }
 
+        // Draw number for neck position
         var position = draw.text(lowestFret.toString() + ".").cx(16).cy(67).fill("#444444").font({family: "Times New Roman", size: 12});
     }
 }
