@@ -2,37 +2,32 @@
 var draw    = SVG('diagram').size(280, 280);
 var rect    = draw.rect(280, 280).attr({ fill: '#fbfbfb'});
 
-// Draw constant aspects
+// Static elements
+// Can drawStrings() and drawFrets() be condensed into one function?
 function drawStrings(){
     var strings = [];
-    var x1 = 40,
+    var x = 40,
         y1 = 40,
-        x2 = 40,
         y2 = 240;
 
     for(var i = 1; i <= 6; i++){
-        strings[i] = draw.line(x1, y1, x2, y2).stroke({width: 1});
-        x1 += 40;
-        x2 += 40;
+        strings[i] = draw.line(x, y1, x, y2).stroke({width: 1});
+        x += 40;
     };
     return strings;
 };
-
 function drawFrets(){
     var frets = [];
     var x1 = 40,
-        y1 = 40,
         x2 = 240,
-        y2 = 40;
+        y = 40;
 
     for(var i = 1; i <= 5; i++){
-        frets[i] = draw.line(x1, y1, x2, y2).stroke({width: 1});
-        y1 += 50;
-        y2 += 50;
+        frets[i] = draw.line(x1, y, x2, y).stroke({width: 1});
+        y += 50;
     };
     return frets;
 };
-
 function drawStringNames(){
     var stringLetters = ["E", "A", "D", "G", "B", "E"],
         stringNames   = []
@@ -45,35 +40,30 @@ function drawStringNames(){
     return stringNames;
 };
 
-// Draw variable aspects
+// Variable elements
 function drawNut(){
     var rect = draw.rect(205, 5).radius(3).cx(140).cy(40).fill("#444444");
 }
-
-function drawDots(x,y){
-    if(y > 15){
+function drawDots(x, y){
+    if(y > 15){         // y=15 is the nut
         var circle = draw.circle(30).cx(x).cy(y).fill("#444444");
     }
 }
-
 function drawNums(i, x, y, fill, font){
-    if(Number(fingers[i]) > 0){
+    if(Number(fingers[i]) > 0){         // fingers array from chordslist.js
         var text = draw.text(fingers[i]).cx(x).cy(y).fill(fill).font(font);
     }
 }
-
 function drawOpenStrings(i, x, attr){
     if(frets[i] === "0"){
         var circle = draw.circle(15).cx(x).cy(25).attr(attr);
     }
 }
-
 function drawUnplayedStrings(i, x, fill, attr){
     if(frets[i] === "x"){
         var text = draw.text("x").cx(x).cy(25).fill(fill).font(attr);
     }
 }
-
 function drawFingering(i, x, y){
     drawUnplayedStrings(i, x, "#444444", {family: "Times New Roman", size: 18});
     drawDots(x, y);
@@ -81,17 +71,18 @@ function drawFingering(i, x, y){
     drawOpenStrings(i, x, {fill: "#fbfbfb", stroke: "#444444", "stroke-width": 1});
 }
 
+// Generate a diagram
 function drawPosition(){
     var x = 40;
     var fretsArray = [];
     var fingersArray = [];
-    var posNum = $(".variants.selected").attr("id");
-    var barre = chord.positions[(posNum - 1)].barres;
+    var posNum = $(".variants.selected").attr("id");      // Position number based on button selected in app
+    var barre = chord.positions[(posNum - 1)].barres;     // Convert posNum to array number
 
     // Get highest and lowest frets
     for(var i = 0; i < frets.length; i++){
-        var hexNum = parseInt(frets[i], 16);
-        var fretNum = Number(hexNum);
+        var hexNum = parseInt(frets[i], 16);              // Convert hex to decimal in chordslist:frets
+        var fretNum = Number(hexNum);                     // These 3 lines are repeated elsewhere... functionable?
 
         if(fretNum > 0){
             fretsArray.push(fretNum);
@@ -101,9 +92,9 @@ function drawPosition(){
         var highestFret = Math.max.apply(Math, fretsArray);
     }
 
-    var q = (1 + (1 - lowestFret));
+    var q = (1 + (1 - lowestFret));                       // q helps determine whether nut or fret number needs drawing
 
-    if(q >= 0 && highestFret - lowestFret !== 3){
+    if(q >= 0 && highestFret - lowestFret !== 3){         // q greater than 0 AND biggest gap isn't 3
         for(var i = 0; i < frets.length; i++){
 
             var hexNum = parseInt(frets[i], 16);

@@ -54,7 +54,7 @@ var chords = [
             {key:'C',suffix:' Major',positions:[{frets:'x32010',fingers:'010230'},{frets:'x3555x',fingers:'033310',barres:5},{frets:'x7555x',fingers:'011130',barres:5},{frets:'8aa988',fingers:'112431',barres:8},{frets:'xxacdc',fingers:'342100'}]},
             {key:'C',suffix:'min7',positions:[{frets:'x35343',fingers:'121310',barres:3},{frets:'8x888x',fingers:'033302',barres:8},{frets:'xxacbb',fingers:'223100'}]},
             {key:'C',suffix:'min6',positions:[{frets:'8x788x',fingers:'043102'},{frets:'xxacab',fingers:'213100',barres:10}]},
-            {key:'C',suffix:' minor',positions:[{frets:'x3101x',fingers:'010240'},{frets:'x35543',fingers:'124310',barres:3},{frets:'x6558x',fingers:'041120',barres:5},{frets:'8aa888',fingers:'111431',barres:8},{frets:'xxacdb',fingers:'243100'}]},
+            {key:'C',suffix:' minor',positions:[{frets:'x3101x',fingers:'020140'},{frets:'x35543',fingers:'124310',barres:3},{frets:'x6558x',fingers:'041120',barres:5},{frets:'8aa888',fingers:'111431',barres:8},{frets:'xxacdb',fingers:'243100'}]},
             {key:'C',suffix:'7sus',positions:[{frets:'x35363',fingers:'141310',barres:3},{frets:'8a8a88',fingers:'114131',barres:8},{frets:'xxacbd',fingers:'423100'}]},
             {key:'C',suffix:'sus2',positions:[{frets:'x3001x',fingers:'010030'},{frets:'x35533',fingers:'114310',barres:3},{frets:'xxacda',fingers:'143100',barres:10}]},
             {key:'C',suffix:'13',positions:[{frets:'x122xx',fingers:'024310'},{frets:'8x89ax',fingers:'043201'}]},
