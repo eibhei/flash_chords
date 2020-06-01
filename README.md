@@ -13,4 +13,4 @@ All chord diagrams are generated using SVG.js rather than using images to keep t
 [Bootstrap](http://getbootstrap.com/)  
 [Font Awesome](http://fontawesome.io/)  
 
-[Flash Chords](https://flatcap-monty.github.io/flash_chords)
+[Flash Chords](https://bilbodwyer.github.io/flash_chords)
