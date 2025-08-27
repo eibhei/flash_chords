@@ -3,7 +3,7 @@
 
 All chord diagrams are generated using SVG.js rather than using images to keep the application size down.
 
-[Flash Chords](https://0d-billie.github.io/flash_chords)
+[Flash Chords](https://eibhei.github.io/flash_chords)
 
 ### Technologies used:
 
